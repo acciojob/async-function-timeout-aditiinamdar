@@ -13,7 +13,7 @@ async function handleSubmit() {
   const message = textInput.value;
   const delay = Number(delayInput.value);
 
-  outputDiv.textContent = "Waiting...";
+  outputDiv.textContent ="";
 
   // wait for the specified delay
   await wait(delay);
